@@ -10,6 +10,10 @@
     font-size: 40px;
 }
 
+.terminoimg {
+    width: 100%;
+}
+
 .cabecalhotexto {
     display: inline;
     background-color: yellow;
@@ -33,6 +37,7 @@
 .olhosimg {
     display: flex;
     justify-content: center;
+    width: 100%;
     margin-bottom: 60px;
     margin-top: 60px;
 }
