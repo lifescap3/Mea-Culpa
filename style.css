@@ -3,15 +3,16 @@
     padding: 0;
 }
 
-
 .cabecalho {
     display: flex;
     justify-content: right;
     font-size: 40px;
+    align-items: flex-start; /* Impede que o título e a imagem se deformem */
 }
 
+/* SÓ MUDOU AQUI: tamanho controlado para a imagem da placa no PC */
 .terminoimg {
-    width: 100%;
+    width: 550px; 
     height: auto;
 }
 
@@ -44,6 +45,11 @@
     height: auto;
 }
 
+.olhosimg img {
+    width: 1200px; /* Altere esse valor para aumentar ou diminuir o olho */
+    height: auto;
+}
+
 .kanji {
     text-align: center;
     font-size: 70px;
@@ -61,7 +67,6 @@
     color: white;
     font-size: 40px;
 }
-
 
 
 .textocabecalho {
