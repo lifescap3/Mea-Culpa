@@ -12,6 +12,7 @@
 
 .terminoimg {
     width: 100%;
+    height: auto;
 }
 
 .cabecalhotexto {
@@ -40,6 +41,7 @@
     width: 100%;
     margin-bottom: 60px;
     margin-top: 60px;
+    height: auto;
 }
 
 .kanji {
