@@ -85,3 +85,31 @@
 .textodiario {
     text-align: left;
 }
+
+/* --- AJUSTES EXCLUSIVOS PARA TELEMÓVEL --- */
+@media (max-width: 768px) {
+    /* Ajusta a imagem da placa no telemóvel para não estourar a tela */
+    .terminoimg {
+        width: 140px; /* Reduz a placa para caber no ecrã do telemóvel */
+        height: auto;
+    }
+
+    /* Ajusta a imagem do olho para caber na largura da tela do telemóvel */
+    .olhosimg img {
+        width: 90%;   /* Ocupa 90% da largura do telemóvel sem vazar */
+        height: auto;
+    }
+
+    /* Diminui ligeiramente as fontes no telemóvel */
+    .cabecalho {
+        font-size: 24px;
+    }
+
+    .kanji {
+        font-size: 45px;
+    }
+
+    .rodapetexto {
+        font-size: 22px;
+    }
+}
