@@ -10,9 +10,8 @@
     align-items: flex-start; /* Impede que o título e a imagem se deformem */
 }
 
-/* SÓ MUDOU AQUI: tamanho controlado para a imagem da placa no PC */
 .terminoimg {
-    width: 550px; 
+    width: 550px;   /* Altere esse valor para aumentar ou diminuir o olho */
     height: auto;
 }
 
@@ -22,6 +21,7 @@
 }
 
 .cabecalhotexto2 {
+    text-decoration: none;
     color: blueviolet;
 }
 
@@ -69,6 +69,8 @@
 }
 
 
+
+
 .textocabecalho {
     text-align: center;
     color: black;
@@ -85,6 +87,13 @@
 .textodiario {
     text-align: left;
 }
+
+
+
+
+
+
+
 
 /* --- AJUSTES EXCLUSIVOS PARA TELEMÓVEL --- */
 @media (max-width: 768px) {
