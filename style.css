@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: right;
+    font-size: 40px;
+}
+
+.cabecalhotexto {
+    display: inline;
+    background-color: yellow;
+}
+
+.cabecalhotexto2 {
+    color: blueviolet;
+}
+
+.pagsdiv {
+    background-color: yellow;
+}
+
+.pags {
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 100px;
+    color: blueviolet;
+}
+
+.olhosimg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.kanji {
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+
+.rodape {
+    text-align: center;
+    background-color: black;
+    padding: 70px;
+}
+
+.rodapetexto {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+
+
+
+.textocabecalho {
+    text-align: center;
+    color: black;
+}
+
+.textotitulo {
+    text-align: center;
+}
+
+.textopoema {
+    text-align: center;
+}
+
+.textodiario {
+    text-align: left;
+}
